@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Trevor Fox -- Technical Alchemist -- @realtrevorfaux
+    Lisa Hopey —- Art Director —- @lisahopey
+
+# THANKS
+
+    Hello World, Lisa Hopey, Mom and Dad
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
