@@ -30,7 +30,7 @@ function Person(initial,total   ,pic,bubble){
   pic.on("click",this,function(e){
     var self = e.data
     self.talk();
-    self.bubble.parent().attr("href","proxy.php?requrl=http://api.instagram.com/oembed?url=http://instagram.com/p/eS0YWDNnFr/")//"#" + self.initial + self.counter());
+    self.bubble.parent().attr("href", instaFrame[self.initial + self.counter()]);
   });
 
   bubble.parent().magnificPopup({
@@ -51,6 +51,9 @@ jQuery(document).ready(function(){
 });
 
 
+var instaFrame = {
+  "L1" : "http://instagram.com/p/dnQi4EGuZx/embed/",
+}
 
 var lisaLinks = [];
 var rhinoLinks = [];
